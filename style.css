@@ -104,6 +104,7 @@
 .hero-img {
     background-color: #6D747D;
     width: 50rem;
+    border-radius: 15px;
 }
 
 .hero-img-txt {
@@ -112,3 +113,114 @@
 }
 
 /* Information */
+
+.info-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.info-container {
+    padding: 50px 0;
+}
+
+.info-heading {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.info-heading-txt {
+    font-size: var(--info-header-txt-size);
+    font-weight: var(--info-header-txt-weight);
+    color: var(--info-header-txt-color);
+}
+
+.info-card__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-card {
+    width: 175px;
+    flex-wrap: wrap;
+}
+
+.info-card__img {
+    border: 2px solid var(--button-color);
+    border-radius: 15px;
+    height: 175px;
+    width: 175px;
+}
+
+.info-card-txt {
+    font-size: var(--hero-second-txt-size);
+    text-align: center;
+}
+
+/* Quote */
+
+.quote-section {
+    background-color: var(--quote-bg);
+}
+
+.quote-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 125px 0;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: var(--quote-txt-size);
+    color: var(--quote-txt-color);
+}
+
+figcaption {
+    float: right;
+    font-weight: bolder;
+    font-size: var(--quote-txt-size);
+    padding-top: 15px;
+}
+
+/* Call To Action */
+
+.call-to-action {
+    margin: 75px 0;
+}
+
+.cta-container {
+    background-color: var(--c2a-bg);
+    width: 70%;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 25px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-link-text-color);
+}
+
+.cta-h4 {
+    font-size: var(--info-header-txt-size);
+    font-weight: var(--info-header-txt-weight);
+}
+
+.cta-button {
+    border: 2px solid var(--header-link-text-color);
+    padding: 15px 35px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--dark-bg);
+    padding: 50px 0;
+}
+
+.footer-container {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
