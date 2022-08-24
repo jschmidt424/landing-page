@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -19,35 +20,39 @@
           <div class="navigation">
             <nav>
               <ul>
-                <li><a href="#">Header Link 1</a></li>
-                <li><a href="#">Header Link 2</a></li>
-                <li><a href="#">Header Link 3</a></li>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
               </ul>
             </nav>
           </div>
         </div>
       </header>
       <section class="hero">
-        <div class="hero-container">
-          <div class="hero-txt">
-            <div class="hero-txt-heading">
-              <h1 class="hero-txt-h1">This website is awesome</h1>
+        <div class="hero-wrapper">
+          <div class="hero-container">
+            <div class="hero-txt">
+              <div class="hero-txt-wrapper">
+                <div class="hero-txt-heading">
+                  <h1 class="hero-txt-h1">This website is awesome</h1>
+                </div>
+                <div class="hero-txt-sub">
+                  <p class="hero-txt-sub-p">
+                    This website has some subtext that goes here under the main
+                    title. It's a smaller font and the color is lower contrast.
+                  </p>
+                </div>
+                <div class="hero-txt-button">
+                  <button class="hero-btn">
+                    <a href="#">Sign Up</a>
+                  </button>
+                </div>
+              </div>
             </div>
-            <div class="hero-txt-sub">
-              <p class="hero-txt-sub-p">
-                This website has some subtext that goes here under the main
-                title. It's a smaller font and the color is lower contrast.
-              </p>
-            </div>
-            <div class="hero-txt-button">
-              <button class="hero-btn">
-                <a href="#">Sign Up</a>
-              </button>
-            </div>
-          </div>
-          <div class="hero-img-container">
-            <div class="hero-img">
-              <p class="hero-img-txt">This is a placeholder for an image</p>
+            <div class="hero-img-container">
+              <div class="hero-img">
+                <p class="hero-img-txt">This is a placeholder for an image</p>
+              </div>
             </div>
           </div>
         </div>
@@ -116,6 +121,13 @@
           </div>
         </div>
       </section>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-txt">
+            <p>Copyright &copy; The Odin Project 2021</p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
