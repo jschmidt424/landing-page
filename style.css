@@ -1,14 +1,18 @@
 :root {
     --dark-bg: #1F2937;
+    --header-logo-text-size: 24px;
+    --header-logo-text-color: #F9FAF8;
+    --header-link-text-size: 18px;
+    --header-link-text-color: #E5E7EB;
     --hero-main-txt-size: 48px;
     --hero-main-txt-color: #F9FAF8;
-    --hero-main-txt-weight: extra-bold;
-    --hero-second-txt-size: 24px;
+    --hero-main-txt-weight: 800;
+    --hero-second-txt-size: 18px;
     --hero-second-txt-color: #F9FAF8;
     --button-color: #3882F6;
     --c2a-bg: #3882F6;
     --info-header-txt-size: 36px;
-    --info-header-txt-weight: extra-bold;
+    --info-header-txt-weight: 800;
     --info-header-txt-color: #1F2937;
     --quote-bg: #E5E7EB;
     --quote-txt-size: 36px;
@@ -16,3 +20,95 @@
     --quote-txt-color: #1F2937; 
 }
 
+.wrapper {
+    font-family: roboto;
+}
+
+/* Header */
+
+.header {
+    background-color: var(--dark-bg);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-txt {
+    color: var(--header-logo-text-color);
+    font-size: var(--header-logo-text-size);
+    font-weight: bold;
+}
+
+.navigation ul {
+    color: var(--header-link-text-color);
+    display: flex;
+    font-size: var(--header-link-text-size);
+}
+
+.navigation ul li {
+    padding-left: 25px;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: var(--dark-bg);
+}
+
+.hero-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.hero-txt-wrapper {
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-txt-h1 {
+    font-size: var(--hero-main-txt-size);
+    color: var(--hero-main-txt-color);
+    font-weight: var(--hero-main-txt-weight);
+}
+
+.hero-txt-sub-p {
+    font-size: var(--hero-second-txt-size);
+    color: var(--hero-second-txt-color);
+}
+
+.hero-btn {
+    background-color: var(--button-color);
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.hero-img-container {
+    padding-left: 50px;
+}
+
+.hero-img {
+    background-color: #6D747D;
+    width: 50rem;
+}
+
+.hero-img-txt {
+    padding: 120px 0;
+    text-align: center;
+}
+
+/* Information */
