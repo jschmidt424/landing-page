@@ -1,0 +1,18 @@
+:root {
+    --dark-bg: #1F2937;
+    --hero-main-txt-size: 48px;
+    --hero-main-txt-color: #F9FAF8;
+    --hero-main-txt-weight: extra-bold;
+    --hero-second-txt-size: 24px;
+    --hero-second-txt-color: #F9FAF8;
+    --button-color: #3882F6;
+    --c2a-bg: #3882F6;
+    --info-header-txt-size: 36px;
+    --info-header-txt-weight: extra-bold;
+    --info-header-txt-color: #1F2937;
+    --quote-bg: #E5E7EB;
+    --quote-txt-size: 36px;
+    --quote-txt-style: light italic;
+    --quote-txt-color: #1F2937; 
+}
+
